@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <title> ChatBot </title>
+
+    </head>
+
+    <body style="color: white;">
+
+    
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+
+                    <div class="card my-5 bg-dark">
+
+                        <div class="card-body">
+
+                                <p id="chatLog"> </p>
+
+                                <input id="userBox" class="form-control" type="text" placeholder="Informe sua dúvida aqui!" autocomplete="on" onkeydown="if (event.keyCode == 13) {talk()}">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <script src="js/chatbot.js"></script>
+
+
+    </body>
+
+</html>
